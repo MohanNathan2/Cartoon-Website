@@ -14,7 +14,6 @@ const CardDetails = () => {
     })();
   }, [api]);
 
- 
   return (
   <div className="container d-flex justify-content-center">
     <div className="d-flex flex-column gap-3">
