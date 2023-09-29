@@ -1,13 +1,14 @@
-import React from 'react'
-import ReactPaginate from 'react-paginate'
+import React from 'react';
+import ReactPaginate from 'react-paginate';
+import  '../Pagination/Paginatiom.css';
 
 const Pagination = ({info,pageNumber,setPageNumber}) => {
   return <ReactPaginate
   className="pagination justify-content-center gap-4 my-4"
   nextLabel="Next"
   previousLabel="prev"
-  nextClassName="btn btn btn-primary next"
-  previousClassName="btn btn-primary prev"
+  nextClassName="pageBtn pageBtn-Outline a"
+  previousClassName="pageBtn pageBtn-Outline a"
   pageCount={info?.pages}
   pageClassName="page-item"
   pageLinkClassName="page-link"

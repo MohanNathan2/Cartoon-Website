@@ -6,7 +6,6 @@ import Cards from "./components/Cards/Cards";
 import Pagination from './components/Pagination/Pagination';
 import Search from './components/Search/Search';
 import NavBar from './components/NavBar/NavBar';
-
 import {BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import Episodes from './Pages/Episodes';
 import Location from './Pages/Location';
