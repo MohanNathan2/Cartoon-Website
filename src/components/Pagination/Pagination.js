@@ -19,4 +19,5 @@ const Pagination = ({info,pageNumber,setPageNumber}) => {
   />
 }
 
+
 export default Pagination
